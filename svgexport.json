@@ -1,0 +1,11 @@
+[
+	{
+		"input": "src/Logo-600x300-10pct-margin.svg",
+		"output": [
+			"converted/svgexport/png/moneyou-logo-600x300-10pct-margin/moneyou-logo-600x300-10pct-margin.png 600:300",
+			"converted/svgexport/png/moneyou-logo-600x300-10pct-margin/moneyou-logo-600x300-10pct-margin@2x.png 1200:600",
+			"converted/svgexport/png/moneyou-logo-600x300-10pct-margin/moneyou-logo-600x300-10pct-margin@3x.png 1800:900",
+			"converted/svgexport/png/moneyou-logo-600x300-10pct-margin/moneyou-logo-600x300-10pct-margin@4x.png 2400:1200"
+		]
+	}
+]
