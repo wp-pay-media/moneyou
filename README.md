@@ -39,11 +39,13 @@ svgexport svgexport.json
 ```bash
 inkscape --export-png=/Users/remco/Projects/moneyou/converted/inkscape/png/moneyou-logo-600x300-10pct-margin/moneyou-logo-600x300-10pct-margin.png --export-width=600 --export-height=300 /Users/remco/Projects/moneyou/src/Logo-600x300-10pct-margin.svg
 inkscape --export-png=/Users/remco/Projects/moneyou/converted/inkscape/png/moneyou-logo-600x300-10pct-margin/moneyou-logo-600x300-10pct-margin@2x.png --export-width=1200 --export-height=600 /Users/remco/Projects/moneyou/src/Logo-600x300-10pct-margin.svg
+inkscape --export-png=/Users/remco/Projects/moneyou/converted/inkscape/png/moneyou-logo-600x300-10pct-margin/moneyou-logo-600x300-10pct-margin@3x.png --export-width=1800 --export-height=900 /Users/remco/Projects/moneyou/src/Logo-600x300-10pct-margin.svg
+inkscape --export-png=/Users/remco/Projects/moneyou/converted/inkscape/png/moneyou-logo-600x300-10pct-margin/moneyou-logo-600x300-10pct-margin@4x.png --export-width=2400 --export-height=1200 /Users/remco/Projects/moneyou/src/Logo-600x300-10pct-margin.svg
 ```
 
 ```bash
-convert -background transparent -size 600x300 src/Logo-600x300-10pct-margin.svg converted/imagemagick/png/moneyou-logo-600x300-10pct-margin/moneyou-logo-600x300-10pct-margin.png
-convert -background transparent -size 1200x600 src/Logo-600x300-10pct-margin.svg converted/imagemagick/png/moneyou-logo-600x300-10pct-margin/moneyou-logo-600x300-10pct-margin@2x.png
+convert -background transparent -resize 600x300 src/Logo-600x300-10pct-margin.svg converted/imagemagick/png/moneyou-logo-600x300-10pct-margin/moneyou-logo-600x300-10pct-margin.png
+convert -background transparent -resize 1200x600 src/Logo-600x300-10pct-margin.svg converted/imagemagick/png/moneyou-logo-600x300-10pct-margin/moneyou-logo-600x300-10pct-margin@2x.png
 ```
 
 ```bash
