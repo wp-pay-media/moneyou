@@ -54,3 +54,13 @@ rsvg-convert -w 1200 -h 600 src/Logo-600x300-10pct-margin.svg -o converted/rsvg/
 rsvg-convert -w 1800 -h 900 src/Logo-600x300-10pct-margin.svg -o converted/rsvg/png/moneyou-logo-600x300-10pct-margin/moneyou-logo-600x300-10pct-margin@3x.png
 rsvg-convert -w 2400 -h 1200 src/Logo-600x300-10pct-margin.svg -o converted/rsvg/png/moneyou-logo-600x300-10pct-margin/moneyou-logo-600x300-10pct-margin@4x.png
 ```
+
+```bash
+pngquant converted/inkscape/png/moneyou-logo-600x300-10pct-margin/moneyou-logo-600x300-10pct-margin@4x.png --output converted/inkscape/png/moneyou-logo-600x300-10pct-margin/moneyou-logo-600x300-10pct-margin@4x.pngquant-min.png
+
+pngcrush converted/inkscape/png/moneyou-logo-600x300-10pct-margin/moneyou-logo-600x300-10pct-margin@4x.png converted/inkscape/png/moneyou-logo-600x300-10pct-margin/moneyou-logo-600x300-10pct-margin@4x.pngcrush-min.png
+
+pngnq converted/inkscape/png/moneyou-logo-600x300-10pct-margin/moneyou-logo-600x300-10pct-margin@4x.png
+
+oxipng converted/inkscape/png/moneyou-logo-600x300-10pct-margin/moneyou-logo-600x300-10pct-margin@4x.png --out converted/inkscape/png/moneyou-logo-600x300-10pct-margin/moneyou-logo-600x300-10pct-margin@4x-oxipng-min.png -o 4 --strip all
+```
